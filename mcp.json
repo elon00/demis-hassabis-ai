@@ -1,0 +1,54 @@
+{
+  "name": "demis-hassabis-ai-mcp",
+  "version": "1.0.0",
+  "description": "Demis Hassabis AI Model Context Protocol Server for Autonomous Scientific AGI Discovery, AlphaFold Biomolecular Synthesis, Neuro-Symbolic Reinforcement Learning & Planetary Nobel-Grade Research Protocol",
+  "tools": [
+    {
+      "name": "audit_scientific_discovery_pipeline",
+      "description": "Evaluate AI hypothesis generation against empirical wet-lab constraints, structural macromolecular energy scores, and search-tree exploration entropy",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scientific_domain": {
+            "type": "string"
+          },
+          "target_macromolecule": {
+            "type": "string"
+          },
+          "search_algorithm": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "scientific_domain"
+        ]
+      }
+    },
+    {
+      "name": "disburse_scientific_breakthrough_grant",
+      "description": "Trigger automated micro-escrow releases for validated molecular biology predictions, materials science discoveries, and open-access structural databases",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
